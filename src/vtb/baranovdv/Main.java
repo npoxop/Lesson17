@@ -10,8 +10,8 @@ public class Main {
     public static void removeEvenLength(ArrayList<String> stringList) {
         for (int i = 0; i < stringList.size(); i++) {
             String word = stringList.get(i);
-            if (word.length() % 2 == 0) {//even
-                stringList.remove(word);//if it is
+            if (word.length() % 2 == 0) {
+                stringList.remove(word);
                 i = i - 1;
                 continue;
             }
